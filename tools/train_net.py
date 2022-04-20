@@ -28,17 +28,6 @@ from maskrcnn_benchmark.utils.imports import import_file
 from maskrcnn_benchmark.utils.logger import setup_logger
 from maskrcnn_benchmark.utils.miscellaneous import mkdir
 
-'''
-
-source activate python37
-python setup.py install --cuda_ext --cpp_ext
-python setup.py build develop
-
-bash tools/fewshot_exp/train_voc_all.sh
-
-bash tools/fewshot_exp/demo_voc_base.sh
-bash tools/fewshot_exp/demo_voc_standard.sh
-'''
 
 # See if we can use apex.DistributedDataParallel instead of the torch default,and enable mixed-precision via apex.amp
 try:
