@@ -1,4 +1,4 @@
-# DGFIDaCL
+# ARRM
 
 ![LICENSE](https://img.shields.io/badge/license-MIT-green)
 ![Python](https://img.shields.io/badge/python-3.7-blue.svg)
