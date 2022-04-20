@@ -7,7 +7,11 @@
 Our code is based on  [https://github.com/facebookresearch/maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) and developed with Python 3.7 & PyTorch 1.1.0.
 
 ## Installation
-Check INSTALL.md for installation instructions. Since maskrcnn-benchmark has been deprecated, please follow these instructions carefully (e.g. version of Python packages).
+1. activate Python environment
+2. cd apex # install apex
+3. python setup.py install --cuda_ext --cpp_ext
+4. cd ..
+5. python setup.py build develop
 
 ## Prepare Pascal VOC datasets
 First, you need to download the VOC datasets [here](https://drive.google.com/file/d/14muqZUdbpnYQ_30ZpAP9KqrVVHSkJOhU/view?usp=sharing).
