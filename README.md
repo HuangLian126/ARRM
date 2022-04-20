@@ -41,11 +41,11 @@ datasets/voc/
                   ├── Crops_standard-10shot
 ```
 
-## Training and Evaluation
+## Training
 1. Run the following for base training and novel training on Pascal VOC splits-1.
 
 ```bash
 bash tools/fewshot_exp/train_voc_all.sh 
 ```
 
-2. Modify them if needed. If you have any question about these parameters (e.g. batchsize), please refer to [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) for quick solutions.
+
