@@ -8,10 +8,12 @@ Our code is based on  [https://github.com/facebookresearch/maskrcnn-benchmark](h
 
 ## Installation
 1. activate Python environment
-2. cd apex # install apex
-3. python setup.py install --cuda_ext --cpp_ext
-4. cd ..
-5. python setup.py build develop
+2. git clone https://github.com/NVIDIA/apex.git
+3. cd apex
+4. git checkout 96b017a
+5. python setup.py install --cuda_ext --cpp_ext
+6. cd ..
+7. python setup.py build develop
 
 ## Prepare Pascal VOC datasets
 First, you need to download the VOC datasets [here](https://drive.google.com/file/d/14muqZUdbpnYQ_30ZpAP9KqrVVHSkJOhU/view?usp=sharing).
