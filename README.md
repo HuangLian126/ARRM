@@ -44,7 +44,7 @@ datasets/voc/
 ```
 
 ## Training
-1. Run the following for base training and novel training on Pascal VOC splits-1.
+1. Run the following code for base training and novel training on Pascal VOC splits-1.
 
 ```bash
 bash tools/fewshot_exp/train_voc_all.sh 
