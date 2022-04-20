@@ -7,7 +7,7 @@
 Our code is based on  [https://github.com/facebookresearch/maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) and developed with Python 3.7 & PyTorch 1.1.0.
 
 ## Installation
-1. activate Python environment
+1. activate your python environment
 2. git clone https://github.com/NVIDIA/apex.git
 3. cd apex
 4. git checkout 96b017a
